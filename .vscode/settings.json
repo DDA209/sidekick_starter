@@ -1,0 +1,7 @@
+// Place your settings in this file to overwrite default and user settings. 
+{
+    "html.suggest.html5": false,
+    "html.autoClosingTags": false,
+    "html.format.enable": false,
+    "editor.quickSuggestions": false
+}
