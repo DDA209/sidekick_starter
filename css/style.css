@@ -1,0 +1,144 @@
+/**
+* Global
+*/
+
+@font-face{
+    font-family: 'fa-brand';
+    src: url("../webfonts/fa-brands-400.ttf");
+}
+
+@font-face{
+    font-family: 'fa-solid';
+    src: url("../webfonts/fa-solid-900.ttf");
+}
+
+@font-face{
+    font-family: 'fa-regular';
+    src: url("../webfonts/fa-regular-400.ttf");
+}
+
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'fa-solid',sans-serif;
+}
+
+h3, h4{
+    text-align: center;
+}
+
+header, div#howItWorks, div#notice, div#users, div#price{
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 0 0 auto 0;
+    height: 100vh;
+}
+
+div#howItWorks, div#notice{
+    background-color: green;
+    color: white;
+}
+
+/**
+* Navbar
+*/
+nav{
+    background-color: #f8f8f8ff;
+}
+
+#navTitle{
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+
+
+
+/**
+* Header
+*/
+
+h1, h2{
+    background-color: #ffffffd0;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+#carouselControlsHeader div div img{
+    height: 100vh;
+    /*width: auto; */
+
+}
+
+
+.title{
+    position: absolute;
+    z-index: 2;
+    /* margin: 0 0 15rem 5rem; */
+}
+
+/**
+* main
+*/
+
+h3{
+    text-align: center;
+    margin: 3rem 0 3rem 0;
+}
+
+.resizeH{
+    height: 100%;
+}
+
+.priceDescription{
+    text-align: center;
+    
+}
+
+.priceZone{
+    position: relative;
+    /* padding-top: 2rem; */
+    /* text-align: center; */
+    /* word-break: break-all; */
+    /* text-align: justify */
+    /* vertical-align: bottom;
+    bottom: 0; */
+}
+
+.priceZone span{
+    /* position: absolute; */
+    vertical-align: bottom;
+    font-size: 1.75rem;
+    /* margin-bottom: 0;
+    bottom: 0; */
+    /* padding-left: 50%;
+    padding-right: 50%; */
+    /* word-break: break-all; */
+    /* text-align: justify */
+}
+
+.priceDescription ul{
+    padding: 0rem 0.5rem 0rem 0.5rem;
+}
+
+.priceDescription ul li{
+    list-style: none;
+}
+
+.priceEuro{
+    height: 100%;
+}
+
+sup{
+    font-size: 1rem;
+}
+
+.idPicture{ /* notice */
+    max-width: 150px;
+    margin: 0 auto 0 auto;
+}

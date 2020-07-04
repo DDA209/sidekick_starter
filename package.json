@@ -1,0 +1,22 @@
+{
+  "name": "sidekick_starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DDA209/sidekick_starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DDA209/sidekick_starter/issues"
+  },
+  "homepage": "https://github.com/DDA209/sidekick_starter#readme",
+  "dependencies": {
+    "counterup2": "^1.0.4"
+  }
+}
