@@ -30,36 +30,38 @@
                     <span class="navbar-brand" id="navTitle"><i class="fas fa-user-friends"></i> SK</span>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-body active" href='#howItWorks'>Fonctionnement</a>
+                    <a data-scroll class="nav-link text-body active" href='#howItWorks'>Fonctionnement</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-secondary" href='#price'>Prix</a>
+                    <a data-scroll class="nav-link text-secondary" href='#price'>Prix</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-secondary disabled" href='#'>Utilisateurs</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-secondary" href='#notice'>Témoignages</a>
+                    <a data-scroll class="nav-link text-secondary" href='#notice'>Témoignages</a>
                 </li>
             </ul>
         </nav>
 
         <header>
-            <div class="container title">
+            <div class="container">
                 <div class="row titleMiddle">
-                    <div class="col-6">
+                    <div class="col-1">
+                    </div>
+                    <div class="col-6 title">
                         <h2>Rencontrez des personnes qui partagente les mêmes centres d'intérêts que vous</h2>
                     </div>
-                    <div class="col-6">
-                        <!-- <div></div> -->
+                    <div class="col-5">
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-1">
+                    </div>
+                    <div class="col-6 title">
                         <h1>Sidekick</h1>
                     </div>
-                    <div class="col-6">
-                        <!-- <div></div> -->
+                    <div class="col-5">
                     </div>
                 </div>
             </div>
@@ -103,7 +105,7 @@
                         <div class="col-12">
                             <h3>Comment ça marche ?</h3>
                         </div>
-                        <div class="col-8">
+                        <div class="col-7">
                             <div>
                                 <img class="videoPic img-fluid" src="img/howto.jpg" />
                             </div>
@@ -139,14 +141,18 @@
                         </div>
                         
                         <div class="col-2">
-                            <ul>
+                            <ul class="listMR">
                                 <li><span><i class="fab fa-envira"></i> Une action simple</span></li>
+                            </ul>
+                            <ul class="listLR">
                                 <li><span><i class="fas fa-car"></i> Une solution rapide</span></li>
                             </ul>
                         </div>                        
                         <div class="col-2">
-                            <ul>
+                            <ul class="listML">
                                 <li><span><i class="fab fa-bitcoin"></i> Une solution économique</span></li>
+                            </ul>
+                            <ul class="listRL">
                                 <li><span><i class="fas fa-globe-europe"></i></i> Une solution écologique</span></li>
                             </ul>
                         </div>
@@ -207,7 +213,7 @@
                                             </ul>
                                         </div>
                                         <div class="col-12 priceZone text-center">
-                                            <span class="counter">39.99<sup>€</sup></span>
+                                            <span><div class="counter">40</div><sup>€</sup></span>
                                         </div>
                                     </div>
                                 </div>
@@ -215,9 +221,11 @@
 
                         </div>
 
-                    </div> <!-- /.price -->
+                    </div>
                 </div>
-            </div>
+            </div> <!-- /.price -->
+
+
             <div id="notice">
                 <div class="container">
                     <div class="row">
@@ -295,6 +303,10 @@
         <script src='./js/jquery.counterup.min.js'></script>
         <script src='./js/jquery.waypoints.min.js'></script>
         <script src='./js/smooth-scroll.polyfills.min.js'></script>
+        <script src='./js/layout.min.js'></script>
+        <script src='./js/slideListe.js'></script>
 
-
+    <script>
+            var scroll = new SmoothScroll('a[href*="#"]');
+        </script>
     </body>

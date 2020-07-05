@@ -39,6 +39,9 @@ div#howItWorks, div#notice{
     color: white;
 }
 
+
+
+
 /**
 * Navbar
 */
@@ -59,14 +62,17 @@ nav{
 
 h1, h2{
     background-color: #ffffffd0;
+    margin-left: 0rem;
 }
 
 h1{
     font-size: 2.5rem;
+    margin-top: 70vh;
 }
 
 h2{
     font-size: 2rem;
+    margin-top: 40vh;
 }
 
 #carouselControlsHeader div div img{
@@ -141,4 +147,32 @@ sup{
 .idPicture{ /* notice */
     max-width: 150px;
     margin: 0 auto 0 auto;
+}
+
+.listMR, .listLR, .listML, .listRL{
+    text-align: left;
+    width: 50%;
+
+}
+
+.listMR, .listML{
+    margin: auto;
+
+}
+
+.listLR{
+    margin: 0 auto 0 0;
+
+}
+
+.listRL{
+    margin: 0 0 0 auto;
+
+}
+
+.listMR, .listLR, .listML, .listRL{
+
+}
+.listMR, .listLR, .listML, .listRL{
+
 }
